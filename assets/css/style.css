@@ -1,0 +1,230 @@
+*{
+	box-sizing:border-box;
+	padding:0px;
+	margin:0px;
+}
+.text-center{
+	text-align:center;
+}
+.text-right{
+	text-align:right;
+}
+a:link,
+a:hover,
+a:focus,
+a:active{
+	text-decoration:none;
+}
+.container{
+	width:1360px;
+	margin:0 auto;
+}
+.col2, .col6, .col7, .col5, .col3, .col1,.col6{
+	float:left;
+	padding:0px 15px;
+}
+.col2{
+	width:20%;
+}
+.col6{
+	width:50%;
+}
+.col7{
+	width:calc((100% * 7) / 12);
+}
+.col5{
+	width:calc((100% * 5) / 12);
+}
+.col10{
+	width:calc((100% * 10) / 12);
+	margin:0 auto;
+}
+.col3{
+	width:25%;
+}
+.pd-30{
+	padding-top:30px;
+}
+.row,
+.row::after,
+.row::before{
+	clear:both;
+	display:table;
+	width:100%;
+}
+.header{
+	width:100%;
+}
+.pd-115{
+	padding:115px 0px;
+}
+.pd-125{
+	padding:125px 0px;
+	padding:125px 0px;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> HEADER CSS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.logo{
+	padding:20px 120px;
+}
+.navbar li{
+	list-style:none;
+	display :inline-block;
+	text-transform:uppercase;
+	padding:45px 17px 16px 17px;
+	font-size:18px;
+	color:#006a4d;
+	position:relative;
+}
+.navbar{
+	text-align:center;
+}
+
+.navbar li a::after{
+	content:'';
+	background-color:#69be28;
+	width:0;
+	height:2px;
+	position:absolute;
+	left:0;
+	bottom:0;
+	transition:all 0.5s ease-in-out;
+}
+.navbar li a:hover::after{
+	width:100%;
+	
+}
+a:link,
+a:hover,
+a:focus,
+a:active{
+	text-decoration:none;
+	color:#69be28;
+	
+}
+.btn,.sec-heading1,.sec-heading2,.sec-heading3, .sec-hedng, .para, .sec-hedng1, .paregraph, .btn1, .sceheading8,.footer i,.footer h6{
+	color:#fff;
+}
+.btn{
+	text-transform:uppercase;
+	padding:20px 16px;
+	float:right;
+	background-color:#69be28;
+	cursor:pointer;
+	outline:none;
+	border-color:#69be28;
+	/* border:0; */
+	font-size:18px;
+}
+.btn:active,
+.btn:focus,
+.btn:hover,
+.btn:visited{
+	color:#69be28;
+	background-color:#fff;
+	border-color:#69be28;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  IMAGE CSS   <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.background-img{
+	width:100%;
+	height:400px;
+	background-image:url(../images/heroimg.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+.sec-heading1{
+	font-size:32px;
+}
+.sec-heading2{
+	font-size:58px;
+	padding:20px 0;
+}
+
+.sec-heading3{
+	font-size:22px;
+	margin-top:20px;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  ABOUT THE EVENT CSS  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.img1{
+	width:100%;
+}
+.sec-heading4{
+	font-size:36px;
+	color:#006a4d;
+}
+.sec-para1{
+	font-size:16px;
+	padding-top:20px;
+	padding-bottom:25px;
+	line-height:15px;
+}
+.sec-heading5{
+	font-size:20px;
+	color:#006a4d;
+}
+.sec-para2{
+	line-height:15px;
+}
+.speaker{
+	background-color:#006a4d;
+	padding:100px 0px;
+}
+.btn1:active,
+.btn1:focus,
+.btn1:hover,
+.btn1:visited{
+	color:#006a4d;
+	background-color:#fff;
+	border-color:#006a4d;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>speaker css start<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.sec-hedng{
+	font-size:36px;
+	text-align:center;
+}
+
+.para{
+	margin-top:25px;
+	margin-bottom:40px;
+	
+}
+.sec-hedng1{
+	font-size:18px;
+	padding:12px;
+}
+.paregraph{
+	font-size:14px;
+	margin-bottom:70px;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>footer section css start<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.footer{
+	background-color:#3c3c3c;
+	padding:80px;
+}
+.btn1{
+	text-transform:uppercase;
+	padding:15px 20px;
+	background-color:#006a4d;
+	cursor:pointer;
+	
+	border-color:white;
+	font-size:18px;
+}
+.sceheading8{
+	font-size:16px;
+	
+}
+.navbar1 li{
+	list-style:none;
+	display:inline-block;
+	
+}
+.footer a i{
+	font-size:20px;
+	padding :10px;
+}
+.footer h6{
+	font-size:18px;
+	padding:0 10px;
+}
